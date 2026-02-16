@@ -8,6 +8,31 @@ This repository contains event logs and project data for the ClawBoz headquarter
 - **projects.json**: JSON file containing project metadata
 - **logger.py**: Python utilities for logging events and syncing to GitHub
 
+## Event Format
+
+Each event in `events.jsonl` is a single-line JSON object with these fields:
+
+```json
+{
+  "ts": "2026-02-16T15:30:45.123456+00:00",
+  "project": "my-project",
+  "agent": "agent-name",
+  "status": "done",
+  "message": "Task completed successfully",
+  "artifact": "path/to/artifact",
+  "meta": {"key": "value"}
+}
+```
+
+**Fields:**
+- `ts` - UTC ISO 8601 timestamp
+- `project` - Project identifier
+- `agent` - Agent identifier
+- `status` - Event status (started, done, error, etc.)
+- `message` - Human-readable message (must be public-safe)
+- `artifact` - (Optional) Path to artifact or output
+- `meta` - (Optional) Additional metadata dictionary
+
 ## Usage
 
 ```python
