@@ -19,3 +19,6 @@
 {"ts": "2026-02-16T22:12:15.610826+00:00", "project": "clawboz-trend-coach", "agent": "run", "status": "started", "message": "Generating missions for 2026-02-16"}
 {"ts": "2026-02-16T22:12:18.732787+00:00", "project": "clawboz-trend-coach", "agent": "run", "status": "progress", "message": "Fetched trend sources", "artifact": "/Users/home/ClawBoz/clawboz-trend-coach/data/trend_input_2026-02-16.json"}
 {"ts": "2026-02-16T22:12:18.734555+00:00", "project": "clawboz-trend-coach", "agent": "run", "status": "done", "message": "Generated mission pack for 2026-02-16", "artifact": "/Users/home/ClawBoz/clawboz-trend-coach/outputs/missions/2026-02-16.md"}
+{"ts": "2026-02-16T23:11:40.834714+00:00", "project": "clawboz-trend-coach", "agent": "run", "status": "started", "message": "Generating project missions for 2026-02-16"}
+{"ts": "2026-02-16T23:11:48.078044+00:00", "project": "clawboz-trend-coach", "agent": "run", "status": "progress", "message": "Fetched trend sources", "artifact": "/Users/home/ClawBoz/clawboz-trend-coach/data/trend_input_2026-02-16.json"}
+{"ts": "2026-02-16T23:11:48.078807+00:00", "project": "clawboz-trend-coach", "agent": "run", "status": "done", "message": "Generated mission pack for 2026-02-16", "artifact": "/Users/home/ClawBoz/clawboz-trend-coach/outputs/missions/2026-02-16.md"}
