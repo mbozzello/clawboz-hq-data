@@ -1,0 +1,8 @@
+.env
+token.json
+credentials.json
+node_modules
+dist
+build
+__pycache__
+.venv
