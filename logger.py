@@ -50,6 +50,16 @@ def sync_to_github(commit_message: str = "Update events"):
     repo_dir = Path(__file__).parent
 
     try:
+        # Ensure git identity is set (needed in CI environments)
+        subprocess.run(
+            ["git", "config", "user.email", "bot@clawboz.com"],
+            cwd=repo_dir, capture_output=True
+        )
+        subprocess.run(
+            ["git", "config", "user.name", "ClawBoz Bot"],
+            cwd=repo_dir, capture_output=True
+        )
+
         # Add all changes
         subprocess.run(
             ["git", "add", "."],
